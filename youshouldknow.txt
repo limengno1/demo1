@@ -1,0 +1,12 @@
+1.在github中创建仓库
+2.在本地创建公钥、私钥
+	ssh-keygen -t rsa -C "limengno1@126.com"
+3.github中创建key,并将第二步产生的id_rsa.pub粘贴进去
+4.验证是否成功
+	ssh -T git@github.com
+5.设置username和email
+	git config --global user.name "limengno1@126.com"
+	git config --global user.email "limengno1@126.com"
+6.进入要上传的仓库，邮件git bash,添加远程地址
+	git init
+	git remote add origin https://github.com/limengno1/demo1.git
