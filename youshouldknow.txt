@@ -12,3 +12,4 @@
 	git remote add origin https://github.com/limengno1/demo1.git
 	
 7. work copy
+8. git branch
