@@ -10,3 +10,5 @@
 6.进入要上传的仓库，邮件git bash,添加远程地址
 	git init
 	git remote add origin https://github.com/limengno1/demo1.git
+	
+7. work copy
