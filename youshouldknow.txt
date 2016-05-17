@@ -18,3 +18,7 @@
 # added by limeng 20160517 
 
 # modified again
+
+
+# create dev branch
+git checkout -b dev
